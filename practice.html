@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit&family=Kaushan+Script&family=Merriweather&family=Montserrat&family=Poor+Story&family=Poppins&family=Roboto&family=Sacramento&family=Sigmar&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar{
+            padding: 15px 12px;
+        }
+
+        ul a{
+            text-decoration: none;
+        }
+
+       
+      
+
+
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar  navbar-expand-lg bg-body-tertiary  ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="30" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+          </svg> Frozed</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+     <img src="peakpx-1.jpg" class="img-fluid" alt="...">
+
+      <!-- jumbotron -->
+
+    <div class="my-5">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <h1 class="text-body-emphasis">Full-width jumbotron</h1>
+            <p class="col-lg-8 mx-auto lead">
+              This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="jumbotron mb-5">
+        <div class="container ">
+          <h1 class="display-3">Hello, world!</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+        </div>
+      </div>
+
+     
+
+      <!-- footer -->
+
+      <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+          <div class="row">
+            <div class="col-lg-3 mb-3">
+              <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+                <span class="fs-5">Frozed</span>
+              </a>
+              <ul class="list-unstyled small">
+                <li class="mb-2">Designed and built with all the love in the world by the <a href="/docs/5.3/about/team/">Frozed team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+                <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+                <li class="mb-2">Currently v5.3.0-alpha3.</li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="/">Home</a></li>
+                <li class="mb-2"><a href="/docs/5.3/">Docs</a></li>
+                <li class="mb-2"><a href="/docs/5.3/examples/">Examples</a></li>
+                <li class="mb-2"><a href="https://icons.getbootstrap.com/">Icons</a></li>
+                <li class="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
+                <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+                <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap">Swag Store</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Guides</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="/docs/5.3/getting-started/">Getting started</a></li>
+                <li class="mb-2"><a href="/docs/5.3/examples/starter-template/">Starter template</a></li>
+                <li class="mb-2"><a href="/docs/5.3/getting-started/webpack/">Webpack</a></li>
+                <li class="mb-2"><a href="/docs/5.3/getting-started/parcel/">Parcel</a></li>
+                <li class="mb-2"><a href="/docs/5.3/getting-started/vite/">Vite</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Projects</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/examples/">Examples repo</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Community</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+                <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+                <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+                <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+                <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
